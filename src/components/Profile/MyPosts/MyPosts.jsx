@@ -20,6 +20,7 @@ const MyPosts = (props) => {
     let action = updateNewPostTextActionCreator(text);
     props.dispatch(action);
   };
+
   return (
     <div className={s.postsBlock}>
       My posts
