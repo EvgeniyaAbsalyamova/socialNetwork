@@ -29,7 +29,6 @@ export const profileReducer = (state = initialState, action) => {
 };
 
 export const addPostActionCreator = () => {
-  debugger;
   return {
     type: ADD_POST,
   };
